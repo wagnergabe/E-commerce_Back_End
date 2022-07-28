@@ -14,7 +14,7 @@ Category.init(
       //enforce columns to not accept null values
       primaryKey: true,
       //Creates a key that uniquely identifies each row of a table
-      autoIncrement: true
+      autoIncrement: true,
       //each new record will automatically generate a new id value by 1
     },
   // define catagory name column

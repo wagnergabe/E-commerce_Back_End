@@ -13,24 +13,22 @@ router.get('/', (req, res) => {
       'product_name',
       'price',
       'stock',
-      'category_id'
     ],
     include: [
       {
         model: Category,
-        attributes: ['id', 'category_name'],
+        attributes: ['category_name'],
       },
       {
         model: Tag,
-        through: ProductTag,
-        as: 'tags'
+        attributes: ['tag_name']
       },
     ],
 })
   .then ((dbProData) => res.removeListener(dbProData))
   .catch((err) => {
     console.log(error);
-    res.status(500).json(err)
+    res.status(500).json
   })
 });
 
