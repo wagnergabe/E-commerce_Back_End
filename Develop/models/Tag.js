@@ -30,10 +30,10 @@ module.exports = Tag;
 
 // #Tag Checklist#
 // -id-
-// Integer
-// Doesn't allow null values
-// Set as primary key
-// Uses auto increment
+// Integer    -pass
+// Doesn't allow null values    -pass
+// Set as primary key   -pass
+// Uses auto increment    -pass
 
 // -tag_name-
-// String
+// String   -pass
