@@ -18,7 +18,7 @@ Category.init(
       //each new record will automatically generate a new id value by 1
     },
   // define catagory name column
-  catagory_name: {
+  category_name: {
     type: DataTypes.STRING,
     //Datatype objects will be strings. 
     allowNull: false
