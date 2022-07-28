@@ -9,7 +9,7 @@ ProductTag.init(
   {
     // define columns
     id: {
-      type: DataTypes.INTEGER,
+      type: DataTypes.INTEGER, 
       allowNull: false,
       primaryKey: true,
       autoIncrement: true
@@ -42,15 +42,15 @@ module.exports = ProductTag;
 
 // #Checklist ProductTag
 // -id-
-// Integer
-// Doesn't allow null values
-// Set as primary key
-// Uses auto increment
+// Integer    -pass
+// Doesn't allow null values    -pass
+// Set as primary key   -pass
+// Uses auto increment    -pass
 
 // -product_id-
-// Integer
-// References the product model's id
+// Integer    -pass
+// References the product model's id    -pass
 
 // -tag_id-
-// Integer
-// References the tag model's id
+// Integer    -pass
+// References the tag model's id    -pass
