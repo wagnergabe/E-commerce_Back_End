@@ -35,6 +35,7 @@ Product.init(
       //Default value is always NULL, this will keep it at 10
       validate: {
         isNumeric: true,
+        //makes sure data is a number value
       },
     },
     catagory_id: {
@@ -61,27 +62,28 @@ module.exports = Product;
 //-checklist
 
 // --Product-- 
-// -id-
-// Integer
-// Doesn't allow null values
-// Set as primary key
-// Uses auto increment
+// -id-   pass
+// Integer  pass
+// Doesn't allow null values  pass
+// Set as primary key   pass
+// Uses auto increment  pass
+
 
 // -product_name-
-// String
-// Doesn't allow null values
+// String   pass
+// Doesn't allow null values    pass
 
 // -price-
-// Decimal
-// Doesn't allow null values
-// Validates that the value is a decimal
+// Decimal  pass
+// Doesn't allow null values  pass
+// Validates that the value is a decimal    pass
 
 // -stock-
-// Integer
-// Doesn't allow null values
-// Set a default value of 10
-// Validates that the value is numeric
+// Integer    pass
+// Doesn't allow null values    pass
+// Set a default value of 10    pass
+// Validates that the value is numeric    pass
 
 // -category_id-
-// Integer
-// References the category model's id
+// Integer    pass
+// References the category model's id   pass
